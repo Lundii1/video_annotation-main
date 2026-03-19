@@ -1,0 +1,122 @@
+<root K="1211.136963 0.000000 993.070007 0.000000 1222.057983 578.002014 0.000000 0.000000 1.000000" R="0.996000 -0.071000 0.052000 0.021000 -0.383000 -0.923000 0.085000 0.921000 -0.380000" T="-0.233000 0.928000 5.034400" D="-0.363000 0.118000 -0.004000 -0.005000 0.000000">
+  <keyframe key="0">
+    <key personID="1" bbox="731 373 852 662 0.002"/>
+    <key personID="2" bbox="962 395 1113 680 0.001"/>
+  </keyframe>
+  <keyframe key="1">
+    <key personID="1" bbox="754 360 875 649 0.002"/>
+    <key personID="2" bbox="983 383 1134 668 0.001"/>
+  </keyframe>
+  <keyframe key="2">
+    <key personID="1" bbox="774 349 895 638 0.003"/>
+    <key personID="2" bbox="1000 374 1151 659 0.001"/>
+  </keyframe>
+  <keyframe key="3">
+    <key personID="1" bbox="819 324 940 613 0.005"/>
+    <key personID="2" bbox="1045 348 1196 633 0.001"/>
+  </keyframe>
+  <keyframe key="4">
+    <key personID="1" bbox="842 300 963 589 0.011"/>
+    <key personID="2" bbox="1065 335 1216 620 0.001"/>
+  </keyframe>
+  <keyframe key="5">
+    <key personID="1" bbox="877 275 998 564 0.024"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="6">
+    <key personID="1" bbox="885 279 1006 568 0.052"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="7">
+    <key personID="1" bbox="885 282 1006 571 0.070"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="8">
+    <key personID="1" bbox="885 285 1006 574 0.071"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="9">
+    <key personID="1" bbox="885 285 1006 574 0.058"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="10">
+    <key personID="1" bbox="885 284 1006 573 0.060"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="11">
+    <key personID="1" bbox="885 284 1006 573 0.062"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="12">
+    <key personID="1" bbox="886 283 1007 572 0.072"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="13">
+    <key personID="1" bbox="888 284 1009 573 0.095"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="14">
+    <key personID="1" bbox="889 282 1010 571 0.092"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="15">
+    <key personID="1" bbox="888 279 1009 568 0.174"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="16">
+    <key personID="1" bbox="889 278 1010 567 0.194"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="17">
+    <key personID="1" bbox="890 278 1011 567 0.224"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="18">
+    <key personID="1" bbox="890 276 1011 565 0.231"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="19">
+    <key personID="1" bbox="891 277 1012 566 0.226"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="20">
+    <key personID="1" bbox="887 273 1008 562 0.156"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="21">
+    <key personID="1" bbox="884 271 1005 560 0.122"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="22">
+    <key personID="1" bbox="882 269 1003 558 0.156"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="23">
+    <key personID="1" bbox="895 275 1016 564 0.183"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="24">
+    <key personID="1" bbox="894 275 1015 564 0.149"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="25">
+    <key personID="1" bbox="901 278 1022 567 0.310"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="26">
+    <key personID="1" bbox="900 279 1021 568 0.768"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="27">
+    <key personID="1" bbox="905 282 1026 571 0.226"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="28">
+    <key personID="1" bbox="906 282 1027 571 0.187"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+  <keyframe key="29">
+    <key personID="1" bbox="907 283 1028 572 0.307"/>
+    <key personID="2" bbox="1063 325 1214 610 0.001"/>
+  </keyframe>
+</root>

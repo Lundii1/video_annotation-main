@@ -1,0 +1,122 @@
+<root K="996.484985 0.000000 948.830994 0.000000 1000.033997 486.320007 0.000000 0.000000 1.000000" R="-0.733000 -0.680000 -0.029000 -0.110000 0.160000 -0.981000 0.672000 -0.716000 -0.192000" T="1.354000 0.865000 9.156000" D="-0.281000 0.073000 0.001000 -0.000000 0.000000">
+  <keyframe key="0">
+    <key personID="1" bbox="862 412 942 613 0.002"/>
+    <key personID="2" bbox="801 426 890 645 0.001"/>
+  </keyframe>
+  <keyframe key="1">
+    <key personID="1" bbox="863 414 949 613 0.002"/>
+    <key personID="2" bbox="786 429 875 648 0.001"/>
+  </keyframe>
+  <keyframe key="2">
+    <key personID="1" bbox="863 417 960 613 0.003"/>
+    <key personID="2" bbox="778 429 867 648 0.001"/>
+  </keyframe>
+  <keyframe key="3">
+    <key personID="1" bbox="863 417 969 613 0.005"/>
+    <key personID="2" bbox="761 428 850 647 0.001"/>
+  </keyframe>
+  <keyframe key="4">
+    <key personID="1" bbox="864 418 950 614 0.011"/>
+    <key personID="2" bbox="765 426 854 645 0.001"/>
+  </keyframe>
+  <keyframe key="5">
+    <key personID="1" bbox="864 423 943 614 0.024"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="6">
+    <key personID="1" bbox="864 423 943 613 0.052"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="7">
+    <key personID="1" bbox="863 431 943 614 0.070"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="8">
+    <key personID="1" bbox="862 436 943 614 0.071"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="9">
+    <key personID="1" bbox="863 431 945 614 0.058"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="10">
+    <key personID="1" bbox="863 429 945 614 0.060"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="11">
+    <key personID="1" bbox="863 428 945 614 0.062"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="12">
+    <key personID="1" bbox="863 428 945 614 0.072"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="13">
+    <key personID="1" bbox="862 433 943 614 0.095"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="14">
+    <key personID="1" bbox="862 429 941 614 0.092"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="15">
+    <key personID="1" bbox="863 431 939 614 0.174"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="16">
+    <key personID="1" bbox="862 430 939 613 0.194"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="17">
+    <key personID="1" bbox="862 430 939 613 0.224"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="18">
+    <key personID="1" bbox="862 426 938 614 0.231"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="19">
+    <key personID="1" bbox="861 427 939 614 0.226"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="20">
+    <key personID="1" bbox="861 424 940 613 0.156"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="21">
+    <key personID="1" bbox="860 423 940 613 0.122"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="22">
+    <key personID="1" bbox="859 423 940 613 0.156"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="23">
+    <key personID="1" bbox="859 422 940 613 0.183"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="24">
+    <key personID="1" bbox="859 421 938 613 0.149"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="25">
+    <key personID="1" bbox="859 423 937 613 0.310"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="26">
+    <key personID="1" bbox="858 428 937 614 0.768"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="27">
+    <key personID="1" bbox="859 425 937 614 0.226"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="28">
+    <key personID="1" bbox="859 424 937 613 0.187"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+  <keyframe key="29">
+    <key personID="1" bbox="857 427 936 615 0.307"/>
+    <key personID="2" bbox="755 427 844 646 0.001"/>
+  </keyframe>
+</root>

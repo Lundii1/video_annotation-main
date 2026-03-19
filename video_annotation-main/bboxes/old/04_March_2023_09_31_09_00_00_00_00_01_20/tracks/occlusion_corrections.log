@@ -1,0 +1,827 @@
+OCCLUSION CORRECTION LOG
+==================================================
+
+Total corrections made: 270
+
+Corrections by track:
+  Track 2: 7 corrections
+  Track 1: 263 corrections
+
+Corrections by view:
+  View 0: 16 corrections
+  View 2: 226 corrections
+  View 1: 23 corrections
+  View 3: 5 corrections
+
+Detailed correction log:
+------------------------------
+Frame 91, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 96)
+  Bbox: (796, 405, 920, 653)
+
+Frame 92, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 96)
+  Bbox: (796, 405, 920, 655)
+
+Frame 93, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 96)
+  Bbox: (800, 402, 920, 660)
+
+Frame 94, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 96)
+  Bbox: (799, 403, 919, 658)
+
+Frame 95, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 96)
+  Bbox: (801, 404, 919, 657)
+
+Frame 113, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (684, 364, 767, 616)
+
+Frame 115, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (684, 367, 768, 616)
+
+Frame 116, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 366, 769, 615)
+
+Frame 117, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 367, 768, 616)
+
+Frame 118, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 367, 766, 616)
+
+Frame 119, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 368, 765, 616)
+
+Frame 120, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 368, 765, 616)
+
+Frame 121, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (680, 368, 765, 616)
+
+Frame 122, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (680, 366, 764, 616)
+
+Frame 123, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (679, 364, 764, 616)
+
+Frame 124, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (678, 362, 764, 616)
+
+Frame 125, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (677, 363, 765, 616)
+
+Frame 126, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (677, 364, 764, 616)
+
+Frame 127, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (677, 361, 763, 615)
+
+Frame 128, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 360, 763, 615)
+
+Frame 129, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 360, 764, 615)
+
+Frame 130, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (675, 359, 764, 615)
+
+Frame 131, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (673, 362, 763, 615)
+
+Frame 132, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (669, 362, 763, 615)
+
+Frame 133, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (668, 363, 764, 615)
+
+Frame 134, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (668, 363, 766, 615)
+
+Frame 135, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (667, 363, 765, 614)
+
+Frame 136, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (667, 363, 767, 615)
+
+Frame 137, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (666, 363, 766, 615)
+
+Frame 138, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (667, 361, 766, 615)
+
+Frame 139, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (670, 362, 768, 614)
+
+Frame 140, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (672, 360, 766, 615)
+
+Frame 141, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (672, 360, 767, 615)
+
+Frame 142, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (671, 359, 768, 615)
+
+Frame 143, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (673, 358, 768, 615)
+
+Frame 144, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (673, 359, 768, 614)
+
+Frame 145, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (674, 361, 767, 615)
+
+Frame 146, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (675, 362, 766, 615)
+
+Frame 147, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 363, 766, 615)
+
+Frame 148, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 363, 766, 614)
+
+Frame 149, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 364, 767, 614)
+
+Frame 150, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (677, 364, 768, 614)
+
+Frame 151, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (677, 363, 766, 615)
+
+Frame 152, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (676, 363, 767, 615)
+
+Frame 153, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (678, 363, 766, 615)
+
+Frame 154, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (679, 363, 766, 615)
+
+Frame 155, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (680, 363, 767, 615)
+
+Frame 156, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (681, 365, 766, 615)
+
+Frame 157, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (683, 365, 767, 616)
+
+Frame 158, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (685, 365, 767, 616)
+
+Frame 159, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (686, 365, 766, 616)
+
+Frame 160, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (685, 365, 766, 617)
+
+Frame 161, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (685, 365, 764, 616)
+
+Frame 162, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (685, 364, 764, 616)
+
+Frame 163, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 164)
+  Bbox: (685, 364, 764, 616)
+
+Frame 167, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 362, 766, 616)
+
+Frame 168, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 361, 767, 616)
+
+Frame 169, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 361, 767, 615)
+
+Frame 170, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 361, 765, 615)
+
+Frame 171, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 362, 764, 615)
+
+Frame 172, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 362, 766, 616)
+
+Frame 173, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 362, 766, 616)
+
+Frame 174, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 362, 767, 616)
+
+Frame 175, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 362, 766, 616)
+
+Frame 176, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 363, 764, 616)
+
+Frame 177, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 363, 763, 616)
+
+Frame 178, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 363, 761, 616)
+
+Frame 179, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (688, 363, 762, 617)
+
+Frame 180, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (688, 363, 760, 617)
+
+Frame 182, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 349, 762, 617)
+
+Frame 183, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 357, 764, 616)
+
+Frame 184, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 357, 764, 615)
+
+Frame 185, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 358, 764, 615)
+
+Frame 186, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 363, 766, 615)
+
+Frame 187, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 362, 765, 612)
+
+Frame 188, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 358, 763, 612)
+
+Frame 189, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 359, 762, 612)
+
+Frame 190, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 359, 761, 612)
+
+Frame 191, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 361, 760, 612)
+
+Frame 192, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 361, 760, 612)
+
+Frame 193, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 360, 761, 612)
+
+Frame 194, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (685, 361, 760, 613)
+
+Frame 195, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (683, 361, 760, 614)
+
+Frame 196, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (684, 363, 760, 612)
+
+Frame 197, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (685, 363, 761, 613)
+
+Frame 198, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (685, 364, 760, 615)
+
+Frame 199, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (684, 366, 761, 616)
+
+Frame 200, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (684, 366, 761, 616)
+
+Frame 201, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (684, 367, 761, 616)
+
+Frame 202, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (684, 367, 763, 616)
+
+Frame 203, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (685, 374, 766, 616)
+
+Frame 204, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (682, 368, 761, 616)
+
+Frame 205, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (683, 369, 760, 617)
+
+Frame 206, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (682, 368, 761, 614)
+
+Frame 207, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (682, 367, 760, 614)
+
+Frame 208, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (681, 369, 761, 615)
+
+Frame 209, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (681, 369, 763, 613)
+
+Frame 210, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (682, 369, 764, 612)
+
+Frame 211, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 369, 767, 610)
+
+Frame 212, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (686, 368, 770, 609)
+
+Frame 213, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 369, 772, 608)
+
+Frame 214, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 372, 772, 608)
+
+Frame 215, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (687, 376, 773, 608)
+
+Frame 216, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (688, 381, 774, 607)
+
+Frame 217, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 218)
+  Bbox: (688, 380, 774, 608)
+
+Frame 220, View 0: Moved bbox from Track 1 to Track 2 (corrected at frame 221)
+  Bbox: (783, 420, 883, 592)
+
+Frame 238, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (683, 367, 772, 615)
+
+Frame 239, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (684, 368, 771, 616)
+
+Frame 240, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (684, 369, 768, 617)
+
+Frame 241, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (684, 369, 768, 617)
+
+Frame 242, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (685, 369, 767, 617)
+
+Frame 243, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (686, 369, 766, 617)
+
+Frame 244, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (686, 370, 765, 616)
+
+Frame 245, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (687, 369, 765, 616)
+
+Frame 246, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (687, 368, 766, 616)
+
+Frame 247, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (686, 368, 767, 616)
+
+Frame 249, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (686, 362, 772, 614)
+
+Frame 250, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (686, 361, 775, 613)
+
+Frame 251, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (687, 361, 793, 611)
+
+Frame 252, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (687, 361, 793, 610)
+
+Frame 253, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (689, 360, 796, 605)
+
+Frame 254, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 360, 797, 605)
+
+Frame 255, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (694, 361, 797, 604)
+
+Frame 256, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (694, 363, 794, 600)
+
+Frame 257, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 364, 788, 598)
+
+Frame 258, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (691, 365, 796, 601)
+
+Frame 259, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 366, 801, 600)
+
+Frame 260, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 367, 807, 598)
+
+Frame 261, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 368, 816, 598)
+
+Frame 262, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 375, 824, 597)
+
+Frame 263, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (691, 372, 826, 598)
+
+Frame 264, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 375, 829, 597)
+
+Frame 265, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (691, 374, 830, 599)
+
+Frame 266, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 372, 824, 598)
+
+Frame 267, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (691, 370, 821, 599)
+
+Frame 268, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 373, 821, 598)
+
+Frame 269, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 374, 822, 598)
+
+Frame 270, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (692, 367, 823, 598)
+
+Frame 271, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (694, 366, 825, 598)
+
+Frame 272, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (697, 365, 822, 598)
+
+Frame 273, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (699, 367, 823, 597)
+
+Frame 274, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (700, 366, 823, 597)
+
+Frame 275, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (702, 364, 823, 598)
+
+Frame 276, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (708, 365, 823, 597)
+
+Frame 277, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (711, 364, 822, 596)
+
+Frame 278, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (710, 356, 823, 597)
+
+Frame 279, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (713, 356, 824, 597)
+
+Frame 280, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (715, 356, 825, 597)
+
+Frame 281, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (718, 357, 825, 595)
+
+Frame 282, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (724, 356, 827, 593)
+
+Frame 283, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (723, 353, 829, 592)
+
+Frame 284, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (726, 353, 833, 590)
+
+Frame 285, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (732, 357, 835, 591)
+
+Frame 286, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (734, 356, 843, 588)
+
+Frame 287, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (733, 359, 849, 590)
+
+Frame 288, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 289)
+  Bbox: (732, 361, 850, 590)
+
+Frame 292, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (733, 356, 852, 595)
+
+Frame 293, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (734, 360, 853, 596)
+
+Frame 294, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (734, 361, 853, 595)
+
+Frame 295, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (735, 361, 853, 595)
+
+Frame 296, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (734, 362, 852, 593)
+
+Frame 298, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (734, 361, 853, 597)
+
+Frame 299, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (734, 359, 852, 598)
+
+Frame 300, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (733, 357, 851, 597)
+
+Frame 301, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (732, 357, 852, 596)
+
+Frame 302, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (731, 358, 851, 594)
+
+Frame 303, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (730, 360, 848, 592)
+
+Frame 304, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (731, 361, 849, 589)
+
+Frame 305, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (731, 360, 844, 589)
+
+Frame 306, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (731, 358, 837, 588)
+
+Frame 307, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (730, 357, 832, 591)
+
+Frame 308, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (727, 355, 828, 590)
+
+Frame 309, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (723, 354, 824, 595)
+
+Frame 310, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (717, 352, 820, 597)
+
+Frame 311, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (719, 354, 815, 594)
+
+Frame 312, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (720, 353, 814, 599)
+
+Frame 313, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (716, 353, 812, 597)
+
+Frame 314, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (723, 356, 812, 597)
+
+Frame 315, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (725, 357, 812, 598)
+
+Frame 316, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (722, 357, 813, 598)
+
+Frame 317, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (725, 358, 811, 598)
+
+Frame 318, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 319)
+  Bbox: (724, 362, 811, 600)
+
+Frame 422, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (838, 443, 923, 661)
+
+Frame 423, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (836, 442, 921, 661)
+
+Frame 424, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (835, 443, 921, 661)
+
+Frame 425, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (834, 446, 922, 661)
+
+Frame 426, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (834, 447, 920, 659)
+
+Frame 427, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (832, 447, 921, 659)
+
+Frame 428, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (829, 451, 919, 659)
+
+Frame 429, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 453, 920, 658)
+
+Frame 430, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (827, 458, 919, 658)
+
+Frame 431, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (827, 458, 921, 658)
+
+Frame 432, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (827, 462, 920, 658)
+
+Frame 433, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 463, 921, 658)
+
+Frame 434, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 461, 921, 659)
+
+Frame 435, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 462, 921, 659)
+
+Frame 436, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 461, 921, 659)
+
+Frame 437, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (829, 458, 921, 660)
+
+Frame 438, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 455, 922, 659)
+
+Frame 439, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (827, 454, 922, 659)
+
+Frame 440, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (828, 455, 922, 660)
+
+Frame 441, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (829, 444, 924, 661)
+
+Frame 442, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (829, 442, 925, 660)
+
+Frame 443, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (830, 440, 925, 660)
+
+Frame 444, View 1: Moved bbox from Track 2 to Track 1 (corrected at frame 445)
+  Bbox: (830, 440, 926, 659)
+
+Frame 579, View 3: Moved bbox from Track 2 to Track 1 (corrected at frame 585)
+  Bbox: (986, 445, 1160, 804)
+
+Frame 580, View 3: Moved bbox from Track 2 to Track 1 (corrected at frame 585)
+  Bbox: (986, 445, 1160, 804)
+
+Frame 581, View 3: Moved bbox from Track 2 to Track 1 (corrected at frame 585)
+  Bbox: (986, 445, 1160, 804)
+
+Frame 582, View 3: Moved bbox from Track 2 to Track 1 (corrected at frame 585)
+  Bbox: (986, 445, 1160, 804)
+
+Frame 653, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (739, 383, 808, 589)
+
+Frame 654, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (740, 384, 809, 589)
+
+Frame 655, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (740, 382, 814, 588)
+
+Frame 656, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (741, 384, 817, 589)
+
+Frame 657, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (741, 382, 815, 587)
+
+Frame 658, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (741, 381, 816, 588)
+
+Frame 659, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (741, 381, 813, 586)
+
+Frame 660, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (741, 380, 813, 587)
+
+Frame 661, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (742, 381, 813, 586)
+
+Frame 662, View 0: Moved bbox from Track 2 to Track 1 (corrected at frame 663)
+  Bbox: (742, 380, 812, 586)
+
+Frame 1051, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (745, 380, 835, 596)
+
+Frame 1052, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (743, 382, 835, 595)
+
+Frame 1053, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (743, 381, 835, 594)
+
+Frame 1054, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (741, 382, 836, 594)
+
+Frame 1055, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 380, 836, 597)
+
+Frame 1057, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 379, 834, 597)
+
+Frame 1058, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (738, 378, 832, 597)
+
+Frame 1059, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 376, 830, 599)
+
+Frame 1060, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (738, 375, 828, 598)
+
+Frame 1061, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (739, 374, 827, 598)
+
+Frame 1062, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 372, 826, 598)
+
+Frame 1063, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (744, 371, 824, 598)
+
+Frame 1064, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (745, 370, 825, 598)
+
+Frame 1065, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (745, 369, 825, 599)
+
+Frame 1066, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (744, 367, 825, 599)
+
+Frame 1067, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 366, 826, 599)
+
+Frame 1068, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (739, 366, 827, 599)
+
+Frame 1069, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 366, 827, 600)
+
+Frame 1070, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (735, 366, 828, 600)
+
+Frame 1071, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (738, 366, 828, 601)
+
+Frame 1072, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (736, 366, 828, 601)
+
+Frame 1073, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (735, 365, 828, 602)
+
+Frame 1074, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 365, 827, 603)
+
+Frame 1075, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (736, 365, 827, 603)
+
+Frame 1076, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (736, 363, 826, 603)
+
+Frame 1077, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (735, 361, 825, 603)
+
+Frame 1078, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (736, 359, 825, 603)
+
+Frame 1079, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (735, 359, 825, 603)
+
+Frame 1080, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 360, 823, 602)
+
+Frame 1081, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (737, 360, 822, 602)
+
+Frame 1082, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (738, 359, 821, 602)
+
+Frame 1083, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (739, 359, 820, 600)
+
+Frame 1084, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 359, 820, 600)
+
+Frame 1085, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 359, 820, 601)
+
+Frame 1086, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (740, 359, 820, 600)
+
+Frame 1087, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (743, 359, 819, 600)
+
+Frame 1088, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (744, 358, 819, 601)
+
+Frame 1089, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (742, 357, 819, 601)
+
+Frame 1090, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (745, 358, 819, 600)
+
+Frame 1091, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (747, 358, 819, 598)
+
+Frame 1092, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (744, 358, 819, 597)
+
+Frame 1093, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (744, 359, 818, 598)
+
+Frame 1094, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (741, 357, 817, 597)
+
+Frame 1095, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (741, 357, 817, 597)
+
+Frame 1096, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1097)
+  Bbox: (741, 357, 818, 596)
+
+Frame 1137, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1143)
+  Bbox: (741, 356, 852, 608)
+
+Frame 1138, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1143)
+  Bbox: (741, 357, 854, 608)
+
+Frame 1140, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1143)
+  Bbox: (742, 358, 857, 611)
+
+Frame 1141, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1143)
+  Bbox: (742, 361, 859, 611)
+
+Frame 1142, View 2: Moved bbox from Track 2 to Track 1 (corrected at frame 1143)
+  Bbox: (742, 362, 859, 611)
+
+Frame 1440, View 3: Moved bbox from Track 1 to Track 2 (corrected at frame 1446)
+  Bbox: (1281, 458, 1416, 777)
+

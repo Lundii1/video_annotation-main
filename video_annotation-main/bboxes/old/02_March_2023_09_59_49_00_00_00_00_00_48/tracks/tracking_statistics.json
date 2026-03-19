@@ -1,0 +1,18 @@
+{
+  "total_detections": 11680,
+  "corrections_made": 0,
+  "validations_performed": 0,
+  "duplicate_removals": 0,
+  "total_frames_processed": 2879,
+  "average_detections_per_frame": 4.056964223688781,
+  "correction_rate": 0.0,
+  "duplicate_rate": 0.0,
+  "track_statistics": {
+    "track_1_detections": 10825,
+    "track_1_avg_confidence": 0.824478040933609,
+    "track_2_detections": 653,
+    "track_2_avg_confidence": 0.9042982828617095,
+    "track_3_detections": 202,
+    "track_3_avg_confidence": 0.899492404460907
+  }
+}
