@@ -15,13 +15,16 @@ const DEFAULT_ANNOTATION = {
     duration: undefined,
     height: undefined,
     width: undefined,
-    name: undefined
+    name: undefined,
+    originalFrames: undefined
   },
 
   objectAnnotationListMap: {},
   regionAnnotationListMap: {},
   skeletonAnnotationListMap: {},
   skillAnnotationList: [],
+  bboxOverlayData: {},
+  bboxOverlayEnabled: true,
 
   leftCurrentFrame: 0,
   rightCurrentFrame: 0,

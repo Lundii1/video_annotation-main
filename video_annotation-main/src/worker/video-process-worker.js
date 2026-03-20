@@ -52,7 +52,8 @@ onmessage = async (event) => {
           height: track_height,
           duration: duration,
           frames,
-          fps
+          fps,
+          originalFrames: nb_samples
         }
       })
       const frameIndexList = []

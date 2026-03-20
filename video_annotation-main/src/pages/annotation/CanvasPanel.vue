@@ -268,10 +268,52 @@ const autoFocus = () => {
 }
 
 /// drawing
+const drawBboxOverlay = (ctx) => {
+  if (!annotationStore.bboxOverlayEnabled) {
+    console.log('[bbox-draw] Overlay disabled')
+    return
+  }
+  const totalFrames = Object.keys(annotationStore.bboxOverlayData).length
+  // Map app frame index to original video frame index
+  // App extracts at lower fps, so app frame i = original frame floor(i * originalFrames / appFrames)
+  const appFrames = annotationStore.video.frames
+  const originalFrames = annotationStore.video.originalFrames
+  let originalFrameIndex = currentFrame.value
+  if (appFrames && originalFrames && originalFrames !== appFrames) {
+    originalFrameIndex = Math.floor((currentFrame.value * originalFrames) / appFrames)
+  }
+  const bboxes = annotationStore.bboxOverlayData[originalFrameIndex]
+  console.log(`[bbox-draw] App frame ${currentFrame.value} → original frame ${originalFrameIndex}, total bbox frames: ${totalFrames}, bboxes:`, bboxes?.length || 0)
+  if (!bboxes || !bboxes.length) return
+  const widthFactor = ctx.canvas.width / annotationStore.video.width
+  const heightFactor = ctx.canvas.height / annotationStore.video.height
+  const unitLineWidth = ctx.canvas.width / 1000
+  for (const bbox of bboxes) {
+    const x = bbox.x1 * widthFactor
+    const y = bbox.y1 * heightFactor
+    const w = (bbox.x2 - bbox.x1) * widthFactor
+    const h = (bbox.y2 - bbox.y1) * heightFactor
+    // Draw border
+    ctx.lineWidth = 2 * unitLineWidth
+    ctx.strokeStyle = bbox.color
+    ctx.strokeRect(x, y, w, h)
+    // Draw label background
+    const label = `P${bbox.personID}`
+    ctx.font = `${Math.round(12 * unitLineWidth)}px sans-serif`
+    const textMetrics = ctx.measureText(label)
+    const textHeight = 14 * unitLineWidth
+    ctx.fillStyle = bbox.color
+    ctx.fillRect(x, y - textHeight, textMetrics.width + 4 * unitLineWidth, textHeight)
+    // Draw label text
+    ctx.fillStyle = '#FFFFFF'
+    ctx.fillText(label, x + 2 * unitLineWidth, y - 2 * unitLineWidth)
+  }
+}
 const draw = (ctx) => {
   if (preferenceStore.objects) objectAnnotationList.value.map((annotation) => annotation.draw(ctx))
   if (preferenceStore.regions) regionAnnotationList.value.map((annotation) => annotation.draw(ctx))
   if (preferenceStore.skeletons) skeletonAnnotationList.value.map((annotation) => annotation.draw(ctx))
+  drawBboxOverlay(ctx)
 }
 const clear = (ctx) => {
   ctx.clearRect(0, 0, CANVAS_WIDTH, canvasHeight.value)
@@ -279,7 +321,7 @@ const clear = (ctx) => {
 onMounted(() => {
   const ctx = canvas.value.getContext('2d')
   watch(
-    annotationList,
+    [annotationList, () => annotationStore.bboxOverlayData, () => annotationStore.bboxOverlayEnabled, currentFrame],
     () => {
       clear(ctx)
       draw(ctx)

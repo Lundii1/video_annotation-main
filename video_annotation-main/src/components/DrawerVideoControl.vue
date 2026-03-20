@@ -18,6 +18,12 @@
         <span v-else>-</span>
       </div>
     </div>
+    <div v-if="annotationStore.hasVideo && Object.keys(annotationStore.bboxOverlayData).length" class="row q-px-md q-pb-sm items-center">
+      <div class="col">Bounding Boxes</div>
+      <div class="col">
+        <q-toggle v-model="annotationStore.bboxOverlayEnabled" dense />
+      </div>
+    </div>
     <div class="q-px-md q-pb-md">
       <q-btn-group spread flat>
         <q-btn outline icon="movie" @click="handleOpen" label="open"></q-btn>

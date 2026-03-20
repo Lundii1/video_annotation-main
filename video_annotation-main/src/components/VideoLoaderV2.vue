@@ -33,6 +33,7 @@ onMounted(() => {
             if (!annotationStore.video.height) annotationStore.video.height = videoTrackInfo.height
             if (!annotationStore.video.fps) annotationStore.video.fps = videoTrackInfo.fps
             if (!annotationStore.video.frames) annotationStore.video.frames = videoTrackInfo.frames
+            if (!annotationStore.video.originalFrames) annotationStore.video.originalFrames = videoTrackInfo.originalFrames
 
             const keyframeList = []
             if (annotationStore.keyframeList.length === 0) {
