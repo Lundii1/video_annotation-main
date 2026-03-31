@@ -242,22 +242,18 @@ const postureOptionList = computed(() =>
 )
 
 const handlePostureInput = (row) => {
-  row.color = configurationStore.postureLabelData.find((label) => label.id === row.action.posture).color
-  row.object = configurationStore.postureLabelData.find((label) => label.id === row.action.posture).outcomes[0]
+  row.color = configurationStore.postureLabelData.find((label) => label.id === row.posture).color
 }
 const handleMoveInput = (row) => {
-  row.color = configurationStore.moveLabelData.find((label) => label.id === row.action.move).color
-  row.object = configurationStore.moveLabelData.find((label) => label.id === row.action.move).outcomes[0]
+  row.color = configurationStore.moveLabelData.find((label) => label.id === row.move).color
 }
 
 const handleObjectInput = (row) => {
-  row.color = configurationStore.objectLabelData.find((label) => label.id === row.action.object).color
-  row.object = configurationStore.objectLabelData.find((label) => label.id === row.action.object).objects[0]
+  row.color = configurationStore.objectLabelData.find((label) => label.id === row.object).color
 }
 
 const handleActionInput = (row) => {
   row.color = configurationStore.actionLabelData.find((label) => label.id === row.action).color
-  row.object = configurationStore.actionLabelData.find((label) => label.id === row.action).objects[0]
 }
 const handleThumbnailPreview = (props) => {
   const { row } = props

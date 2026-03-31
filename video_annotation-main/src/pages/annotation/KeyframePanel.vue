@@ -69,25 +69,25 @@ const play = () => {
   isPaused.value = false
   isStopped.value = false
   videoPlayer.playbackRate = annotationStore.videoPlaybackRate
+  videoPlayer.currentTime = utils.index2time(annotationStore.rightCurrentFrame)
   videoPlayer.play()
-  // const duration =
-  //   ((utils.index2time(annotationStore.rightCurrentFrame) - videoPlayer.currentTime) * 1000) / videoPlayer.playbackRate
-  // duration is the entire video
   const duration = (annotationStore.video.frames - annotationStore.rightCurrentFrame) * 1000
   videoPlayTimeout = setTimeout(() => {
     handleStop()
   }, duration)
-  videoPlayInterval = setInterval(
-    () => {
-      // moveLeftFrame(1)
-      moveRightFrame(1)
-    },
-    1000 / annotationStore.video.fps / videoPlayer.playbackRate
-  )
+  const syncFrame = () => {
+    if (isPaused.value) return
+    const newFrame = utils.time2index(videoPlayer.currentTime)
+    if (newFrame >= 0 && newFrame <= annotationStore.video.frames) {
+      annotationStore.rightCurrentFrame = newFrame
+    }
+    videoPlayInterval = requestAnimationFrame(syncFrame)
+  }
+  videoPlayInterval = requestAnimationFrame(syncFrame)
 }
 const pause = () => {
   clearTimeout(videoPlayTimeout)
-  clearInterval(videoPlayInterval)
+  cancelAnimationFrame(videoPlayInterval)
   isPaused.value = true
   const videoPlayer = document.getElementById('video-player')
   videoPlayer.pause()
@@ -101,7 +101,7 @@ const stop = () => {
   isPaused.value = true
   isStopped.value = true
   clearTimeout(videoPlayTimeout)
-  clearInterval(videoPlayInterval)
+  cancelAnimationFrame(videoPlayInterval)
 }
 const handlePlayPause = () => {
   const videoPlayer = document.getElementById('video-player')
@@ -156,6 +156,7 @@ const videoPlaybackRateOptions = [
 
 // Helper function to update video player current time
 const updateVideoPlayerCurrentTime = (frame) => {
+  if (!isPaused.value) return;
   const videoPlayer = document.getElementById('video-player');
   if (videoPlayer) {
     videoPlayer.currentTime = utils.index2time(frame);

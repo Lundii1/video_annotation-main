@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find 'D:\\\\Machines virtueles\\\\video_annotation-main' -type d -iname *video* -o -type d -iname *real*)",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm install:*)",
+      "Bash(ls -d \"D:/Machines virtueles/video_annotation-main/video_annotation-main/bboxes/new\"/*/)",
+      "Bash(done)",
+      "Bash(while read:*)",
+      "Bash(do echo:*)"
+    ]
+  }
+}
