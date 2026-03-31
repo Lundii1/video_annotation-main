@@ -156,11 +156,11 @@ export const useAnnotationStore = defineStore('annotation', () => {
     importAnnotation: (data) => {
       const {
         video,
-        keyframeList,
-        // objectAnnotationListMap,
-        // regionAnnotationListMap,
-        // skeletonAnnotationListMap,
-        skillAnnotationList
+        keyframeList = [],
+        objectAnnotationListMap = {},
+        regionAnnotationListMap = {},
+        skeletonAnnotationListMap = {},
+        skillAnnotationList = []
       } = data
       /// video
       if (!state.video.src && video.src.startsWith('blob')) {
@@ -189,8 +189,7 @@ export const useAnnotationStore = defineStore('annotation', () => {
         }
       }
       /// keyframeList
-      state.keyframeList = keyframeList
-      state.rightCurrentFrame = keyframeList.length >= 2 ? keyframeList[1] : keyframeList[0]
+      state.keyframeList = Array.isArray(keyframeList) ? keyframeList : []
       /// objectAnnotationListMap
       for (let frame in objectAnnotationListMap) {
         const objectAnnotationList = objectAnnotationListMap[frame]
@@ -250,11 +249,12 @@ export const useAnnotationStore = defineStore('annotation', () => {
           actionAnnotation.start,
           actionAnnotation.end,
           actionAnnotation.action,
-          actionAnnotation.move,
+          actionAnnotation.move ?? actionAnnotation.outcome,
           actionAnnotation.posture,
-          actionAnnotation.object,
+          actionAnnotation.object ?? actionAnnotation.person,
           actionAnnotation.color,
-          actionAnnotation.description
+          actionAnnotation.description,
+          actionAnnotation.is_mistake
         )
       }
       state.skillAnnotationList = skillAnnotationList

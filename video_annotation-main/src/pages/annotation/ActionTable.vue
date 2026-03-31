@@ -214,10 +214,16 @@ const actionOptionList = computed(() =>
   })
 )
 
+const getActionTablePersonLabel = (name) => {
+  if (name === 'person0') return 'person1'
+  if (name === 'person1') return 'person2'
+  return name
+}
+
 const objectOptionList = computed(() =>
   configurationStore.objectLabelData.map((label) => {
     return {
-      label: label.name,
+      label: getActionTablePersonLabel(label.name),
       value: label.id
     }
   })
@@ -241,19 +247,23 @@ const postureOptionList = computed(() =>
   })
 )
 
+const syncActionColor = (row) => {
+  row.color = configurationStore.actionLabelData.find((label) => label.id === row.action)?.color ?? row.color
+}
+
 const handlePostureInput = (row) => {
-  row.color = configurationStore.postureLabelData.find((label) => label.id === row.posture).color
+  syncActionColor(row)
 }
 const handleMoveInput = (row) => {
-  row.color = configurationStore.moveLabelData.find((label) => label.id === row.move).color
+  syncActionColor(row)
 }
 
 const handleObjectInput = (row) => {
-  row.color = configurationStore.objectLabelData.find((label) => label.id === row.object).color
+  syncActionColor(row)
 }
 
 const handleActionInput = (row) => {
-  row.color = configurationStore.actionLabelData.find((label) => label.id === row.action).color
+  syncActionColor(row)
 }
 const handleThumbnailPreview = (props) => {
   const { row } = props
@@ -335,7 +345,7 @@ for (let action of configurationStore.actionLabelData) {
   for (let object of configurationStore.objectLabelData) {
     if (action.objects.includes(object.id)) {
       objectOptionList.push({
-        label: object.name,
+        label: getActionTablePersonLabel(object.name),
         value: object.id
       })
     }

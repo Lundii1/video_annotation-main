@@ -11,14 +11,15 @@
     >P2</button>
     <div
       v-for="item in actionIndicatorList"
-      :key="`${item.action.start}-${item.action.end}-${item.action.action}-${item.action.object}`"
+      :key="item.key"
       :title="`Start: ${item.action.start}\nEnd: ${item.action.end}\nDuration: ${
         item.action.end - item.action.start
       }\nPerson: P${item.action.object + 1}`"
       class="action"
       :style="{
         left: item.leftPercent,
-        right: item.rightPercent,
+        width: item.widthPercent,
+        zIndex: item.zIndex,
         'background-color': item.action.color
       }"
       @click="handleClick(item.action)"
@@ -52,18 +53,23 @@ const actionIndicatorList = computed(() => {
   if (!annotationStore.video.frames || !showActions.value) {
     return []
   }
+  const markerWidthUnit = 100 / (annotationStore.video.frames - 1)
+
   return annotationStore.skillAnnotationList
     .filter((action) => action.object === ACTION_OBJECT_ID)
-    .map((action) => {
-      const markerWidthUnit = 100 / (annotationStore.video.frames - 1)
+    .slice()
+    .sort((a, b) => (a.start !== b.start ? a.start - b.start : a.end - b.end))
+    .map((action, index) => {
       const leftFrame = action.start
       const rightFrame = action.end
       const leftPercent = `${(leftFrame - 0.5) * markerWidthUnit}%`
-      const rightPercent = `${(annotationStore.video.frames - rightFrame - 1.5) * markerWidthUnit}%`
+      const widthPercent = `${Math.max((rightFrame - leftFrame + 1) * markerWidthUnit, markerWidthUnit)}%`
       return {
         action,
         leftPercent,
-        rightPercent
+        widthPercent,
+        zIndex: index + 1,
+        key: `${leftFrame}-${rightFrame}-${action.action}-${action.object}-${index}`
       }
     })
 })
@@ -107,6 +113,7 @@ const handleClick = (action) => {
 
 .action-indicator .action {
   position: absolute;
+  top: 0;
   height: 100%;
   background-blend-mode: multiply;
   cursor: pointer;

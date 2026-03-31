@@ -759,7 +759,7 @@ class ActionAnnotation {
     this.move = move
     this.posture = posture
     this.object = object
-    this.color = color
+    this.color = color || useConfigurationStore().actionLabelData.find((label) => label.id === action)?.color || null
     this.description = description
     this.is_mistake = is_mistake
   }

@@ -22,7 +22,9 @@ export const useAnnotation = () => {
         )
       }
       // config
-      configurationStore.importConfig(config)
+      if (config) {
+        configurationStore.importConfig(config)
+      }
       // annotation
       annotationStore.importAnnotation(annotation)
       utils.notify('Annotation load successfully!', 'positive')
