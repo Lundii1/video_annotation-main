@@ -268,6 +268,8 @@ const autoFocus = () => {
 }
 
 /// drawing
+const SELECTED_BBOX_COLOR = '#4CAF50'
+
 const drawBboxOverlay = (ctx) => {
   if (!annotationStore.bboxOverlayEnabled) {
     console.log('[bbox-draw] Overlay disabled')
@@ -292,20 +294,21 @@ const drawBboxOverlay = (ctx) => {
     // Filter by selected person
     const pid = parseInt(bbox.personID)
     if (annotationStore.selectedPerson !== null && pid !== annotationStore.selectedPerson) continue
+    const bboxColor = annotationStore.selectedPerson === pid ? SELECTED_BBOX_COLOR : bbox.color
     const x = bbox.x1 * widthFactor
     const y = bbox.y1 * heightFactor
     const w = (bbox.x2 - bbox.x1) * widthFactor
     const h = (bbox.y2 - bbox.y1) * heightFactor
     // Draw border
     ctx.lineWidth = 2 * unitLineWidth
-    ctx.strokeStyle = bbox.color
+    ctx.strokeStyle = bboxColor
     ctx.strokeRect(x, y, w, h)
     // Draw label background
     const label = `P${bbox.personID}`
     ctx.font = `${Math.round(12 * unitLineWidth)}px sans-serif`
     const textMetrics = ctx.measureText(label)
     const textHeight = 14 * unitLineWidth
-    ctx.fillStyle = bbox.color
+    ctx.fillStyle = bboxColor
     ctx.fillRect(x, y - textHeight, textMetrics.width + 4 * unitLineWidth, textHeight)
     // Draw label text
     ctx.fillStyle = '#FFFFFF'

@@ -143,10 +143,20 @@ const configurationStore = useConfigurationStore()
 const mainStore = useMainStore()
 const q = useQuasar()
 
+const selectedActionObjectId = computed(() => {
+  if (annotationStore.selectedPerson === 1) return 0
+  if (annotationStore.selectedPerson === 2) return 1
+  return null
+})
+
 const reversedActionList = computed(() => {
-  // Creates a shallow copy of the array and reverses it
-  return [...annotationStore.skillAnnotationList].reverse();
-});
+  const visibleActionList =
+    selectedActionObjectId.value === null
+      ? annotationStore.skillAnnotationList
+      : annotationStore.skillAnnotationList.filter((action) => action.object === selectedActionObjectId.value)
+
+  return [...visibleActionList].reverse()
+})
 
 const columnList = [
   {
@@ -274,15 +284,18 @@ const handleThumbnailPreview = (props) => {
 }
 // header
 const handleAdd = () => {
+  const defaultActionLabel = configurationStore.actionLabelData[0]
+  const selectedObjectId = selectedActionObjectId.value ?? defaultActionLabel.objects[0]
+
   annotationStore.skillAnnotationList.push(
     new ActionAnnotation(
       annotationStore.leftCurrentFrame,
       annotationStore.rightCurrentFrame,
-      configurationStore.actionLabelData[0].id,
-      configurationStore.actionLabelData[0].outcomes[0],
-      configurationStore.actionLabelData[0].objects[0],
-      configurationStore.actionLabelData[0].postures[0],
-      configurationStore.actionLabelData[0].color,
+      defaultActionLabel.id,
+      defaultActionLabel.outcomes[0],
+      defaultActionLabel.postures[0],
+      selectedObjectId,
+      defaultActionLabel.color,
       ''
     )
   )
