@@ -25,6 +25,7 @@ const DEFAULT_ANNOTATION = {
   skillAnnotationList: [],
   bboxOverlayData: {},
   bboxOverlayEnabled: true,
+  selectedPerson: null,
 
   leftCurrentFrame: 0,
   rightCurrentFrame: 0,

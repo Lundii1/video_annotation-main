@@ -289,6 +289,9 @@ const drawBboxOverlay = (ctx) => {
   const heightFactor = ctx.canvas.height / annotationStore.video.height
   const unitLineWidth = ctx.canvas.width / 1000
   for (const bbox of bboxes) {
+    // Filter by selected person
+    const pid = parseInt(bbox.personID)
+    if (annotationStore.selectedPerson !== null && pid !== annotationStore.selectedPerson) continue
     const x = bbox.x1 * widthFactor
     const y = bbox.y1 * heightFactor
     const w = (bbox.x2 - bbox.x1) * widthFactor
@@ -321,7 +324,7 @@ const clear = (ctx) => {
 onMounted(() => {
   const ctx = canvas.value.getContext('2d')
   watch(
-    [annotationList, () => annotationStore.bboxOverlayData, () => annotationStore.bboxOverlayEnabled, currentFrame],
+    [annotationList, () => annotationStore.bboxOverlayData, () => annotationStore.bboxOverlayEnabled, () => annotationStore.selectedPerson, currentFrame],
     () => {
       clear(ctx)
       draw(ctx)
@@ -743,8 +746,29 @@ const handleMousemove = (event) => {
     }
   }
 }
+const getBboxesForCurrentFrame = () => {
+  if (!annotationStore.bboxOverlayEnabled) return []
+  const appFrames = annotationStore.video.frames
+  const originalFrames = annotationStore.video.originalFrames
+  let originalFrameIndex = currentFrame.value
+  if (appFrames && originalFrames && originalFrames !== appFrames) {
+    originalFrameIndex = Math.floor((currentFrame.value * originalFrames) / appFrames)
+  }
+  return annotationStore.bboxOverlayData[originalFrameIndex] || []
+}
+
 const handleMousedown = (event) => {
   const [mouseX, mouseY] = getMouseLocation(event)
+  // Check if click is inside a bbox overlay — select that person (or deselect)
+  const bboxes = getBboxesForCurrentFrame()
+  for (const bbox of bboxes) {
+    const pid = parseInt(bbox.personID)
+    if (annotationStore.selectedPerson !== null && pid !== annotationStore.selectedPerson) continue
+    if (mouseX >= bbox.x1 && mouseX <= bbox.x2 && mouseY >= bbox.y1 && mouseY <= bbox.y2) {
+      annotationStore.selectedPerson = annotationStore.selectedPerson === pid ? null : pid
+      return
+    }
+  }
   if (annotationStore.mode === 'object' && preferenceStore.objects) {
     // drag
     let found = false

@@ -55,7 +55,11 @@ onMounted(() => {
               )
             }
             console.error(event.data.error)
-            utils.notify(`Could not load the video: ${event.data.error}`, 'negative')
+            utils.notify(
+              'Could not load the video. Make sure that hardware acceleration is enabled in your browser settings.',
+              'negative',
+              0
+            )
             annotationStore.isCaching = false
             annotationStore.reset()
             worker.terminate()

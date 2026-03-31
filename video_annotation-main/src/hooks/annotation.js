@@ -47,15 +47,41 @@ export const useAnnotation = () => {
         loadAnnotationFromFile()
       }
     },
-    handleSave: () => {
-      utils.prompt('Save', 'Enter annotation filename for saving', 'annotation').onOk((filename) => {
-        const data = {
-          version: PACKAGE_VERSION,
-          annotation: annotationStore.exportAnnotation(),
+    handleSave: async () => {
+      const videoRoot = annotationStore.video.name?.replace(/\.[^/.]+$/, '') || 'annotation'
+      const defaultFilename = videoRoot + '.json'
+      const data = {
+        version: PACKAGE_VERSION,
+        annotation: annotationStore.exportAnnotation(),
+      }
+      const blob = new Blob([JSON.stringify(data)], { type: 'application/json' })
+
+      if (window.showSaveFilePicker) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: defaultFilename,
+            types: [
+              {
+                description: 'JSON Files',
+                accept: { 'application/json': ['.json'] },
+              },
+            ],
+          })
+          const writable = await handle.createWritable()
+          await writable.write(blob)
+          await writable.close()
+          utils.notify('Annotation saved successfully!', 'positive')
+          mainStore.drawer = false
+        } catch (e) {
+          if (e.name !== 'AbortError') {
+            utils.notify('Failed to save: ' + e.message, 'negative')
+          }
         }
-        exportFile(filename + '.json', new Blob([JSON.stringify(data)]), { mimeType: 'text/plain' })
+      } else {
+        // Fallback for browsers without File System Access API
+        exportFile(defaultFilename, blob, { mimeType: 'application/json' })
         mainStore.drawer = false
-      })
+      }
     },
     handleSubmit: () => {
       submitLoading.value = true
